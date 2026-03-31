@@ -1,6 +1,6 @@
-# DS_Course_FCIS_Students_2024
+# DS_Course_FCIS_Students_2026
 
-Welcome to the **Data Structures Course (2024)** repository. This repository is designed for students to submit their homework and tasks related to the course.
+Welcome to the **Data Structures Course (2026)** repository. This repository is designed for students to submit their homework and tasks related to the course.
 
 ## 📋 How to Get Started
 
