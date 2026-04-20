@@ -33,7 +33,7 @@ void Add_Head(string A, int B)
         C->next = H; // set current of next = head
         H->P = C;
         H = C;       // set current = head
-        H->P = nullptr; // set head of prev = nullptr 
+        H->P = nullptr; // set head of prev = nullptr
     }
 }
 
@@ -62,6 +62,7 @@ void Add_Tail(string A, int B)
         T->next = C; // pointer tail oP next -> current
         C -> P = T; // set current oP prev = tali
         T = C;       // set tail = current
+        T->next = nullptr;
     }
 }
 
@@ -82,7 +83,7 @@ void Erase_Head()
 void Erase_Tail()
 {
     C = T; // set current = head
-    T->P = T; //set tail oP prev = tail 
+    T->P = T; //set tail oP prev = tail
     delete C; //dell current
     T->next = nullptr; // set pointer => nullptr
 }

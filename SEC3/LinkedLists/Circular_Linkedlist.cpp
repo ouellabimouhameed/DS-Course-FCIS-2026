@@ -94,7 +94,7 @@ void Erase_Tail()
 void Print_Nodes()
 {
     C = H;
-    while (C != NULL)
+    while (C->next != H)
     {
         cout << "Name : " << C->name << ","
              << "ID : " << C->number << endl;

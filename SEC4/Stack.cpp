@@ -45,6 +45,10 @@ struct Stack {
         return top == -1;
     }
 
+
+    bool iaFull() {
+        return capacity - 1 == top ; // if full return true , else false 
+    }
     ~Stack() {
         delete[] array;
     }
@@ -52,8 +56,8 @@ struct Stack {
 
 int main() {
     Stack s(5);
-   // Lifo - Last In First Out 
-    s.push(10); 
+   // Lifo - Last In First Out
+    s.push(10);
     s.push(20);
     s.push(30);
 

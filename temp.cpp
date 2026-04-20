@@ -8,10 +8,10 @@ cout << head->data << " ";
 
 
 int main ()
-{ 
-    
-    
-    struct Node* head = new Node(1)
+{
+
+
+    struct Node* head = new Node(1);
 
 
 };
